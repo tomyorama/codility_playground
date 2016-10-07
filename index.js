@@ -1,0 +1,1 @@
+require('./src/12_Euclidean_algorithm/ChocolatesByNumbers.js');

@@ -1,0 +1,24 @@
+{
+    "name": "codility_playgroung",
+    "version": "1.0.0",
+    "description": "Codility lessons, tasks, algorithms, toptal tests",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tomyorama/codility_playground.git"
+    },
+    "keywords": [
+        "codility",
+        "algorithms",
+        "tasks"
+    ],
+    "author": "Tomislav Slade",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tomyorama/codility_playground/issues"
+    },
+    "homepage": "https://github.com/tomyorama/codility_playground#readme"
+}
