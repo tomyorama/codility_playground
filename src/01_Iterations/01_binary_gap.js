@@ -1,8 +1,12 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
 
+/**
+ * A binary gap within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of N.
+ * 
+ * @param {*} N number 
+ * @returns max Binary GAP for N
+ */
 function solution(N) {
-    // write your code in JavaScript (Node.js 4.0.0)
+    // 
     var log2 = Math.log2(N);
     if (log2 % 1 === 0) {
         return 0;
@@ -29,4 +33,4 @@ function solution(N) {
     }
     return numOfZeros;
 }
-console.log(solution(51712)) //-->2 expext
+console.log(solution(32)) //

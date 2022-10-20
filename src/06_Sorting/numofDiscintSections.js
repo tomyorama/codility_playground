@@ -1,6 +1,10 @@
 
 
-
+/**
+ * 
+ * @param {Array<number>} A  array of discs radius A[i]
+ * @returns number of (unordered) pairs of intersecting discs
+ */
 function solution(A) {
 
 	//A = A.filter(x=>x!==0);
@@ -38,7 +42,6 @@ function solution(A) {
 	return total;
 }
 // function solutionA(A) {
-// 	// write your code in JavaScript (Node.js 4.0.0)
 
 // 	var count = 0;
 // 	for (var i = 0; i <= A.length - 2; i++) {

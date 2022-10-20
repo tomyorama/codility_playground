@@ -1,9 +1,9 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ * 
+ * @param {Array<number>} H array of height of wall at distnce i-index
+ * @returns total numbner of blocks (rectangular any dim X*X e.g. 12X7)
+ */
 function solution(H) {
-	// write your code in JavaScript (Node.js 4.0.0)
-
 		var count = 0;
 		var stack = [];
 

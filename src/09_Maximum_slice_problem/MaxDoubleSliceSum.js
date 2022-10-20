@@ -1,8 +1,10 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ * A consisting of N integers
+ * A triplet (X, Y, Z), such that 0 ≤ X < Y < Z < N -> double slice.
+ * @param {*} A 
+ * @returns Max double slice sum
+ */
 function solution(A) {
-	// write your code in JavaScript (Node.js 4.0.0)
 	var N = A.length;
 	var K1 = [0];
 	var K2 = [];

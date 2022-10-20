@@ -1,8 +1,11 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
 
+
+/**
+ * Get unique number of items in A
+ * @param {Array<number>} A 
+ * @returns {number} number of unique numbers
+ */
 function solution(A) {
-	// write your code in JavaScript (Node.js 4.0.0)
 
 	//return A.getUnique().length;
 	//return A.filter( onlyUnique ).length;
@@ -12,7 +15,7 @@ function solution(A) {
 		return 1;
 
 	}
-	var sorted = A.sort();
+	A.sort();
 	var last = A[A.length-1];
 	var dinstinctCounter = 1;
 	for (var i = A.length - 2; i >= 0; i--) {

@@ -1,9 +1,9 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ * Check if string is properly nested e.g. "(()(())())" ok, "())" not ok
+ * @param {*} S 
+ * @returns 
+ */
 function solution(S) {
-	// write your code in JavaScript (Node.js 4.0.0)
-
 	var q = [];
 	for (var i = 0; i <= S.length - 1; i++) {
 		var letter = S[i];
@@ -12,12 +12,12 @@ function solution(S) {
 		} else {
 			if (q.length) {
 				q.pop();
-			}else{
+			} else {
 				return 0;
 			}
 		}
 	}
-	return q.length > 0? 0 : 1;
+	return q.length > 0 ? 0 : 1;
 }
 
 console.log(solution("(()(())()))"));

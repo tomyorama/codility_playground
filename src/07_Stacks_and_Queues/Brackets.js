@@ -1,9 +1,14 @@
+/**
+ * 
+ * @param {string} S 
+ * @returns 
+ */
 function solution(S) {
     var q = [];
     for (var i = 0; i <= S.length - 1; i++) {
         var letter = S[i];
         if (letter == '(' || letter === '[' || letter === '{') {
-            q.push(1);
+            q.push(letter);
         } else {
             if (q.length) {
                 var first = q.pop();
@@ -22,3 +27,6 @@ function solution(S) {
     
     return q.length > 0 ? 0 : 1;
 };
+
+console.log(solution('([)()]'))
+console.log(solution('{[()()]}'))

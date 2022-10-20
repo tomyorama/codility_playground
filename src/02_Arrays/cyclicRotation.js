@@ -1,13 +1,15 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
 
+/**
+ *  Rotate array k times
+ * @param {Array<any>} A 
+ * @param {number} K 
+ * @returns {Array<any>}  The array A rotated K times
+ */
 function solution(A, K) {
 	for (var i = 0; i < K; i++) {
 		A.unshift(A.pop());
 	}
 	return A;
-	// write your code in JavaScript (Node.js 4.0.0)
 }
 var x = [1,2,3,4];
 console.log(solution(x,2));
-//console.log(x);

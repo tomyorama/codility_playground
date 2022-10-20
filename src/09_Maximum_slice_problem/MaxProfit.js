@@ -1,8 +1,9 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ * 
+ * @param {Array<number>} A array of daily prices of a stock index is day
+ * @returns max profit slice buy/sell day
+ */
 function solution(A) {
-    // write your code in JavaScript (Node.js 4.0.0)
 
     if(A.length === 1 || A.length === 0){
         return 0;

@@ -1,9 +1,10 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
 
+/**
+ * 
+ * @param {Array<number>} A range [1..(N + 1)] array of N elements
+ * @returns {numner} missing element
+ */
 function solution(A) {
-    // write your code in JavaScript (Node.js 4.0.0)
-
     if(!A || !(A.length)){
     	return 1;
     }

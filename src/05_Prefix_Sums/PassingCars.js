@@ -1,8 +1,10 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
 
+/**
+ *  Passing Cars
+ * @param {Array<number>} A  array with values: 0 - east, 1 - west
+ * @returns {number} count of pairs (west,east)
+ */
 function solution(A) {
-    // write your code in JavaScript (Node.js 4.0.0)
     var countZeros = 0;
     var countOnes = 0;
     var counter = 0;

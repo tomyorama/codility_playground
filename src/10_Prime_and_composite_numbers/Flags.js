@@ -1,8 +1,9 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ * 
+ * @param {*} A 
+ * @returns 
+ */
 function solution(A) {
-    // write your code in JavaScript (Node.js 4.0.0)
     if (A.length < 1) {
         return 0;
     }

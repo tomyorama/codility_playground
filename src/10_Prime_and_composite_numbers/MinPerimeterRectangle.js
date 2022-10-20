@@ -1,8 +1,10 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ *  perimeter is 2 * (A + B).
+ * @param {number} N area of rectangles (A * B)
+ * @returns maximal perimeter of rectang
+ */
 function solution(N) {
-    // write your code in JavaScript (Node.js 4.0.0)
+
 
     if (N == 1) {
         return 4;

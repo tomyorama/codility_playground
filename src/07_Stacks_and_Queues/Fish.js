@@ -1,8 +1,10 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ * 
+ * @param {Array<number>} A represends fish sizes
+ * @param {Array<number>} B represends direction 0 downstrea, 1 upstream
+ * @returns number of fish in river left after big fish eats small ish
+ */
 function solution(A, B) {
-	// write your code in JavaScript (Node.js 4.0.0)
 
 	var allFishStack = [];
 
@@ -16,7 +18,7 @@ function solution(A, B) {
 			var topFish = allFishStack[allFishStack.length - 1];
 			if (topFish.direction != fish.direction) {
 				if (topFish.direction && topFish.size > fish.size) {
-					//nothing eats
+					// nothing eats
 					continue;
 				} else if (topFish.direction && topFish.size < fish.size) {
 					while (true) {

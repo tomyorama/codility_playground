@@ -1,10 +1,13 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
 
+/**
+ * Nucleotides A, C, G and T have impact factors of 1, 2, 3 and 4, respectively
+ * Find the minimal impact factor of nucleotides letters with definied ranges in P and Q arrays
+ * @param {string} S string to query onli letters ('A','C','G','T')
+ * @param {Array<number>} P start indexes array - value is start index of input
+ * @param {Array<number>} Q end indexes array - value is end index of input
+ * @returns {Array<number>} results is list of impact factors for definied input range
+ */
 function solution(S, P, Q) {
-	// write your code in JavaScript (Node.js 4.0.0)
-
-
 
 	//prefix sums 
 	var prefixSums = [];

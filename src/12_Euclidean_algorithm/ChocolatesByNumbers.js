@@ -1,3 +1,9 @@
+/**
+ * Euclidean algorithm
+ * @param {*} a 
+ * @param {*} b 
+ * @returns 
+ */
 function gcd(a, b) {
     if (a % b === 0) {
         return b;

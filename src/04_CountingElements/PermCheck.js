@@ -1,6 +1,10 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
 
+
+/**
+ * return is ARRAY A permutation A=[1,3,4,2](permutation)
+ * @param {*} A Array
+ * @returns {boolean} is Permutation
+ */
 function solution(A) {
     // write your code in JavaScript (Node.js 4.0.0)
 

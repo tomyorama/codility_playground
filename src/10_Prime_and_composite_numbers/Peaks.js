@@ -1,13 +1,11 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
+/**
+ * 
+ * @param {*} A 
+ * @returns 
+ */
 
 function solution(A) {
-	// write your code in JavaScript (Node.js 4.0.0)
-
-
-
     var N = A.length;
-
     if(N < 3){
         return 0;
     }

@@ -1,8 +1,11 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
 
+/**
+ * (P, Q), 0 ≤ P < Q < N, is slice of array A (min length is 2!)
+ * 
+ * @param {Array<number>} A array of N elements
+ * @returns {number  } the starting position of the slice with the minimal average
+ */
 function solution(A) {
-    // write your code in JavaScript (Node.js 4.0.0)
     if(A.length < 1){
     	return 0;
     }

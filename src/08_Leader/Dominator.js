@@ -1,8 +1,9 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ * The dominator of array A is the value that occurs in more than half of the elements of A
+ * @param {Array<number>} A 
+ * @returns dominator indexes or -1
+ */
 function solution(A) {
-	// write your code in JavaScript (Node.js 4.0.0)
 	if(A.length == 0 ){
 		return -1;
 
@@ -37,8 +38,6 @@ function solution(A) {
 	var countleader = A.reduce(coutLeader, 0);
 	var isLeader = countleader > Math.floor(A.length / 2);
 
-	
-	var tmpLeader = 0;
 	if (isLeader) {
 		return retVal;
 	} else {
@@ -47,4 +46,4 @@ function solution(A) {
 
 }
 
-console.log(solution([1, 1, 2, 2, 2, 2, 2, 2, 1, 1]));
+console.log(solution([1, 2, 2, 2, 2, 2, 2, 1, 1,1,1,1,1]));

@@ -1,8 +1,10 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
 
+/**
+ * 
+ * @param {Array<number>} A 
+ * @returns 
+ */
 function solution(A) {
-	// write your code in JavaScript (Node.js 4.0.0)
 
 		var totalNum = A.length; 
 		var array = new Array(totalNum);

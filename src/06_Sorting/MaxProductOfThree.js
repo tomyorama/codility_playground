@@ -1,8 +1,9 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ * The product of triplet (P, Q, R),  A[P] * A[Q] * A[R] (0 ≤ P < Q < R < N)
+ * @param {Array<number>} A 
+ * @returns {number} maximal product of any triplet
+ */
 function solution(A) {
-    // write your code in JavaScript (Node.js 4.0.0)
 
     if(A.length < 3){
     	return 0;

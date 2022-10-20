@@ -1,8 +1,10 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
 
+/**
+ * Returns index P that splits array of N elements at minimal sum difference min(|sum(1,P-1) − sum(P,N-1)|)
+ * @param {Array<number>} A 
+ * @returns {number} minimal sum  
+ */
 function solution(A) {
-    // write your code in JavaScript (Node.js 4.0.0)
     if(A.length == 1){
     	return A[0];
     }else if (A.length == 0){

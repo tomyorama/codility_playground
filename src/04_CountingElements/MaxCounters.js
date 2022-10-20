@@ -1,8 +1,10 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ *  
+ * @param {*} N 
+ * @param {*} A 
+ * @returns 
+ */
 function solution(N, A) {
-    // write your code in JavaScript (Node.js 4.0.0)
 
     var max = 0;
     if(N == 0){

@@ -1,8 +1,12 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
+/**
+ * A triplet (P, Q, R) is triangular if 0 ≤ P < Q < R < N
+ * A[P] + A[Q] > A[R]
+ * A[Q] + A[R] > A[P]
+ * A[R] + A[P] > A[Q]
+ * @param {*} A 
+ * @returns 1 if there exists a triangular triplet(rules apply)
+ */
 function solution(A) {
-	// write your code in JavaScript (Node.js 4.0.0)
 
 	for (var i = 0; i <= A.length - 3; i++) {
 		for (var k = i + 1; k <= A.length - 2; k++) {
